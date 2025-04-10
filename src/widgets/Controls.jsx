@@ -9,11 +9,11 @@ import _ from "lodash";
 
 const TRICK_TIME = 100;
 const FRIENDLY_NAMES = {
-	ArrowLeft: "<",
-	ArrowRight: ">",
-	ArrowUp: "~v",
-	ArrowDown: "v",
-	" ": "[Space]"
+	arrowleft: "<",
+	arrowright: ">",
+	arrowup: "~v",
+	arrowdown: "v",
+	" ": "[space]"
 };
 
 export default class Controls extends Component {
